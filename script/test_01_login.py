@@ -50,6 +50,7 @@ class TestLogin:
             assert result == "Epic sadface: Username and password do not match any user in this service"
         except AssertionError:
             log.error(f"断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 {result}")
+            raise
 
     def test_04_login_fail_password_error(self):
         self.page_login.login("standard_user","secret_sau")
@@ -59,3 +60,4 @@ class TestLogin:
             assert result == "Epic sadface: Username and password do not match any user in this service"
         except AssertionError:
             log.error(f"断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 {result}")
+            raise

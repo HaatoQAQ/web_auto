@@ -4,7 +4,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from logging import handlers
-from config import PATH
+from config import (PATH,DRIVER_PATH)
 
 # 浏览器驱动类
 class DriverTools:
@@ -14,8 +14,7 @@ class DriverTools:
     @classmethod
     def get_driver(cls):
         if cls.driver is None:
-            path = r"C:\Program Files\Python313\chromedriver.exe"
-            ser = Service(executable_path=path)
+            ser = Service(executable_path=DRIVER_PATH)
             # 启动时禁用密码泄露检测
             options = webdriver.ChromeOptions()
             options.add_experimental_option("prefs", {

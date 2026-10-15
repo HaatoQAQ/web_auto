@@ -6,13 +6,12 @@ from page.page_inventory import PageInventory
 from page.page_cart import  PageCart
 from page.page_checkout import PageCheckout
 from page.page_pay import PagePay
-from config import BASE_URL
+from config import (BASE_URL,DRIVER_PATH)
 
 
 @pytest.fixture()
 def browser():
-    path = r"C:\Program Files\Python313\chromedriver.exe"
-    ser = Service(executable_path=path)  # Chrome浏览器驱动服务对象
+    ser = Service(executable_path=DRIVER_PATH)  # Chrome浏览器驱动服务对象
     # 启动时禁用密码泄露检测
     options = webdriver.ChromeOptions()
     options.add_experimental_option("prefs", {

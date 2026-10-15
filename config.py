@@ -6,6 +6,7 @@ PATH = os.path.dirname(__file__)
 
 BASE_URL = "https://www.saucedemo.com/"
 BACK_URL = "http://121.43.169.97:8082"
+DRIVER_PATH=r"C:\Program Files\Python313\chromedriver.exe"
 
 USERNAME = "standard_user"
 PASSWORD = "secret_sauce"
