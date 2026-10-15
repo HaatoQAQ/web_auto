@@ -33,6 +33,6 @@ class PageLogin(BasePage):
 
 if __name__ == '__main__':
     login = PageLogin(DriverTools.get_driver())
-    login.open_url()
+    login.open_url(BASE_URL)
     login.login("standard_user","secret_sauce")
     time.sleep(3)

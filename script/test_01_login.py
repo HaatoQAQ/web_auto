@@ -1,11 +1,5 @@
-from cmath import inf
-from platform import release
-from zoneinfo import reset_tzpath
-
 import pytest
-from pymsgbox import password
 
-from page import page_login
 from page.page_login import PageLogin
 from config import (USERNAME,PASSWORD,BASE_URL)
 from script import log

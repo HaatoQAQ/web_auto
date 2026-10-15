@@ -67,3 +67,166 @@ Symbols not available. Dumping unresolved backtrace:
 2026-10-15 16:07:57,785 INFO [test_02_inventory.py(test_01_check_the_details:19)] - 预期结果Back to products
 2026-10-15 16:08:33,917 INFO [test_02_inventory.py(test_01_check_the_details:17)] - 预期结果Back to products
 2026-10-15 16:08:33,918 ERROR [test_02_inventory.py(test_01_check_the_details:22)] - 断言错误：预期 Back to products 实际 Back to products
+2026-10-15 19:55:38,790 INFO [test_02_inventory.py(test_02_quit_the_details:30)] - 预期结果Products
+2026-10-15 20:02:01,995 INFO [test_02_inventory.py(test_02_quit_the_details:30)] - 预期结果Products
+2026-10-15 20:14:19,820 INFO [test_02_inventory.py(test_03_add_shopping_cart:40)] - 预期结果Remove
+2026-10-15 20:14:19,820 ERROR [base.py(base_assert:90)] - 断言错误: 预期 Add to cart 实际 Remove
+2026-10-15 20:15:58,235 INFO [test_02_inventory.py(test_03_add_shopping_cart:40)] - 预期结果Remove
+2026-10-15 20:16:13,674 ERROR [base.py(fd_element:29)] - 元素定位超时，定位信息：('id', 'remove-sauce-labs-backpack')，错误详情：Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff7505001c5]
+	(No symbol) [0x7ff750417990]
+	(No symbol) [0x7ff75022448d]
+	(No symbol) [0x7ff75027faed]
+	(No symbol) [0x7ff75027fdbc]
+	(No symbol) [0x7ff7502d8937]
+	(No symbol) [0x7ff7502d55a4]
+	(No symbol) [0x7ff750271892]
+	(No symbol) [0x7ff7502726a3]
+	(No symbol) [0x7ff75090ab51]
+	(No symbol) [0x7ff750933aeb]
+	(No symbol) [0x7ff750927fbe]
+	(No symbol) [0x7ff75060260e]
+	(No symbol) [0x7ff750425085]
+	(No symbol) [0x7ff7504203f4]
+	(No symbol) [0x7ff750420584]
+	(No symbol) [0x7ff75040ab1c]
+	(No symbol) [0x7ffa9e1bdda7]
+	(No symbol) [0x7ffa9f0bee4c]
+
+2026-10-15 20:16:33,217 INFO [test_02_inventory.py(test_04_remove_shopping_cart:47)] - 预期结果Add to cart
+2026-10-15 20:23:49,093 ERROR [base.py(fd_element:29)] - 元素定位超时，定位信息：('class name', 'shopping_cart_badge')，错误详情：Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff7505001c5]
+	(No symbol) [0x7ff750417990]
+	(No symbol) [0x7ff75022448d]
+	(No symbol) [0x7ff75027faed]
+	(No symbol) [0x7ff75027fdbc]
+	(No symbol) [0x7ff7502d8937]
+	(No symbol) [0x7ff7502d55a4]
+	(No symbol) [0x7ff750271892]
+	(No symbol) [0x7ff7502726a3]
+	(No symbol) [0x7ff75090ab51]
+	(No symbol) [0x7ff750933aeb]
+	(No symbol) [0x7ff750927fbe]
+	(No symbol) [0x7ff75060260e]
+	(No symbol) [0x7ff750425085]
+	(No symbol) [0x7ff7504203f4]
+	(No symbol) [0x7ff750420584]
+	(No symbol) [0x7ff75040ab1c]
+	(No symbol) [0x7ffa9e1bdda7]
+	(No symbol) [0x7ffa9f0bee4c]
+
+2026-10-15 20:25:18,727 INFO [test_02_inventory.py(test_05_enter_shopping_cart:53)] - 预期结果Continue Shopping
+2026-10-15 20:25:34,803 ERROR [base.py(fd_element:29)] - 元素定位超时，定位信息：('id', 'back-to-products')，错误详情：Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff7505001c5]
+	(No symbol) [0x7ff750417990]
+	(No symbol) [0x7ff75022448d]
+	(No symbol) [0x7ff75027faed]
+	(No symbol) [0x7ff75027fdbc]
+	(No symbol) [0x7ff7502d8937]
+	(No symbol) [0x7ff7502d55a4]
+	(No symbol) [0x7ff750271892]
+	(No symbol) [0x7ff7502726a3]
+	(No symbol) [0x7ff75090ab51]
+	(No symbol) [0x7ff750933aeb]
+	(No symbol) [0x7ff750927fbe]
+	(No symbol) [0x7ff75060260e]
+	(No symbol) [0x7ff750425085]
+	(No symbol) [0x7ff7504203f4]
+	(No symbol) [0x7ff750420584]
+	(No symbol) [0x7ff75040ab1c]
+	(No symbol) [0x7ffa9e1bdda7]
+	(No symbol) [0x7ffa9f0bee4c]
+
+2026-10-15 20:29:24,342 ERROR [base.py(fd_element:29)] - 元素定位超时，定位信息：('id', 'back-to-products')，错误详情：Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff7505001c5]
+	(No symbol) [0x7ff750417990]
+	(No symbol) [0x7ff75022448d]
+	(No symbol) [0x7ff75027faed]
+	(No symbol) [0x7ff75027fdbc]
+	(No symbol) [0x7ff7502d8937]
+	(No symbol) [0x7ff7502d55a4]
+	(No symbol) [0x7ff750271892]
+	(No symbol) [0x7ff7502726a3]
+	(No symbol) [0x7ff75090ab51]
+	(No symbol) [0x7ff750933aeb]
+	(No symbol) [0x7ff750927fbe]
+	(No symbol) [0x7ff75060260e]
+	(No symbol) [0x7ff750425085]
+	(No symbol) [0x7ff7504203f4]
+	(No symbol) [0x7ff750420584]
+	(No symbol) [0x7ff75040ab1c]
+	(No symbol) [0x7ffa9e1bdda7]
+	(No symbol) [0x7ffa9f0bee4c]
+
+2026-10-15 20:30:12,051 INFO [test_02_inventory.py(test_06_quit_shopping_cart:60)] - 预期结果Products
+2026-10-15 21:34:30,853 INFO [test_02_inventory.py(test_07_sort_details:66)] - 预期结果Name (Z to A)
+2026-10-15 21:35:03,419 INFO [test_02_inventory.py(test_07_sort_details:66)] - 预期结果Name (Z to A)
+2026-10-15 21:35:03,419 ERROR [base.py(base_assert:90)] - 断言错误: 预期 Name (Z to A 实际 Name (Z to A)
+2026-10-15 21:35:36,687 INFO [test_01_login.py(test_01_login:30)] - 登录结果Swag Labs
+2026-10-15 21:35:41,886 INFO [test_01_login.py(test_02_login:43)] - 登录结果 Swag Labs
+2026-10-15 21:35:47,284 INFO [test_01_login.py(test_02_login:43)] - 登录结果 Swag Labs
+2026-10-15 21:35:53,419 INFO [test_01_login.py(test_03_login_fail_username_error:54)] - 登录结果
+2026-10-15 21:35:53,419 ERROR [test_01_login.py(test_03_login_fail_username_error:58)] - 断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 
+2026-10-15 21:35:58,910 INFO [test_01_login.py(test_04_login_fail_password_error:63)] - 登录结果
+2026-10-15 21:35:58,910 ERROR [test_01_login.py(test_04_login_fail_password_error:67)] - 断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 
+2026-10-15 21:49:31,692 INFO [test_03_cart.py(test_02_checkout:14)] - 预期结果Checkout: Your Information
+2026-10-15 22:08:12,618 INFO [test_04_checkout.py(test_02_submit_information:17)] - 预期结果Checkout: Your Information
+2026-10-15 22:08:12,618 ERROR [base.py(base_assert:90)] - 断言错误: 预期 Checkout: Overview 实际 Checkout: Your Information
+2026-10-15 22:09:52,105 INFO [test_04_checkout.py(test_02_submit_information:18)] - 预期结果Checkout: Overview
+2026-10-15 22:12:34,222 INFO [test_04_checkout.py(test_02_submit_information:18)] - 预期结果Checkout: Your Information
+2026-10-15 22:12:34,222 ERROR [base.py(base_assert:91)] - 断言错误: 预期 Checkout: Overview 实际 Checkout: Your Information
+2026-10-15 22:14:23,484 INFO [test_04_checkout.py(test_02_submit_information:18)] - 预期结果Checkout: Your Information
+2026-10-15 22:14:23,485 ERROR [base.py(base_assert:91)] - 断言错误: 预期 Checkout: Overview 实际 Checkout: Your Information
+2026-10-15 22:27:37,238 ERROR [base.py(fd_element:30)] - 元素定位超时，定位信息：('css selector', '.btn.btn_action.btn_medium.cart_button')，错误详情：Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff69ae401c5]
+	(No symbol) [0x7ff69ad57990]
+	(No symbol) [0x7ff69ab6448d]
+	(No symbol) [0x7ff69abbfaed]
+	(No symbol) [0x7ff69abbfdbc]
+	(No symbol) [0x7ff69ac18937]
+	(No symbol) [0x7ff69ac155a4]
+	(No symbol) [0x7ff69abb1892]
+	(No symbol) [0x7ff69abb26a3]
+	(No symbol) [0x7ff69b24ab51]
+	(No symbol) [0x7ff69b273aeb]
+	(No symbol) [0x7ff69b267fbe]
+	(No symbol) [0x7ff69af4260e]
+	(No symbol) [0x7ff69ad65085]
+	(No symbol) [0x7ff69ad603f4]
+	(No symbol) [0x7ff69ad60584]
+	(No symbol) [0x7ff69ad4ab1c]
+	(No symbol) [0x7ffa9e1bdda7]
+	(No symbol) [0x7ffa9f0bee4c]
+
+2026-10-15 22:29:51,855 INFO [test_05_pay.py(test_01_pay:7)] - 预期结果Thank you for your order!
+2026-10-15 22:29:51,855 ERROR [base.py(base_assert:92)] - 断言错误: 预期 Thank you for your order 实际 Thank you for your order!
+2026-10-15 22:31:38,851 INFO [test_05_pay.py(test_01_pay:7)] - 预期结果Thank you for your order!
+2026-10-15 22:31:38,851 ERROR [base.py(base_assert:94)] - 断言错误: 预期 Thank you for your order 实际 Thank you for your order!
+2026-10-15 22:32:04,246 INFO [test_05_pay.py(test_01_pay:7)] - 预期结果Thank you for your order!
+2026-10-15 22:35:40,602 INFO [test_01_login.py(test_01_login:24)] - 登录结果Swag Labs
+2026-10-15 22:35:46,340 INFO [test_01_login.py(test_02_login:37)] - 登录结果 Swag Labs
+2026-10-15 22:35:51,981 INFO [test_01_login.py(test_02_login:37)] - 登录结果 Swag Labs
+2026-10-15 22:35:57,412 INFO [test_01_login.py(test_03_login_fail_username_error:48)] - 登录结果
+2026-10-15 22:35:57,413 ERROR [test_01_login.py(test_03_login_fail_username_error:52)] - 断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 
+2026-10-15 22:36:02,711 INFO [test_01_login.py(test_04_login_fail_password_error:57)] - 登录结果
+2026-10-15 22:36:02,711 ERROR [test_01_login.py(test_04_login_fail_password_error:61)] - 断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 
+2026-10-15 22:36:08,335 INFO [test_02_inventory.py(test_01_check_the_details:10)] - 预期结果Back to products
+2026-10-15 22:36:12,153 INFO [test_02_inventory.py(test_02_quit_the_details:23)] - 预期结果Products
+2026-10-15 22:36:15,292 INFO [test_02_inventory.py(test_03_add_shopping_cart:33)] - 预期结果Remove
+2026-10-15 22:36:18,504 INFO [test_02_inventory.py(test_04_remove_shopping_cart:40)] - 预期结果Add to cart
+2026-10-15 22:36:21,866 INFO [test_02_inventory.py(test_05_enter_shopping_cart:46)] - 预期结果Continue Shopping
+2026-10-15 22:36:25,260 INFO [test_02_inventory.py(test_06_quit_shopping_cart:53)] - 预期结果Products
+2026-10-15 22:36:28,573 INFO [test_02_inventory.py(test_07_sort_details:59)] - 预期结果Name (Z to A)
+2026-10-15 22:36:35,273 INFO [test_03_cart.py(test_02_checkout:11)] - 预期结果Checkout: Your Information
+2026-10-15 22:36:49,133 INFO [test_04_checkout.py(test_02_submit_information:17)] - 预期结果Checkout: Overview
+2026-10-15 22:36:52,964 INFO [test_05_pay.py(test_01_pay:7)] - 预期结果Thank you for your order!

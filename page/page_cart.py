@@ -10,6 +10,7 @@ class PageCart(BasePage):
         super().__init__(driver)
         self.remove_btn = (By.NAME,"remove-sauce-labs-backpack")
         self.checkout_btn = (By.CSS_SELECTOR,'[data-test="checkout"]')
+        self.checkout_page = (By.XPATH,'//*[@id="header_container"]/div[2]/span')
 
     def remove_things(self):
         """删除物品"""
@@ -17,3 +18,4 @@ class PageCart(BasePage):
 
     def checkout(self):
         self.base_click(self.checkout_btn)
+        return self.fd_element(self.checkout_page).text

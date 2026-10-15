@@ -11,6 +11,4 @@ class PagePay(BasePage):
 
     def pay(self):
         self.base_click(self.pay_btn)
-
-    def get_result(self):
-        return self.base_assert_text(self.assert_pay,"Thank you for your order!")
+        return self.fd_element(self.assert_pay).text
