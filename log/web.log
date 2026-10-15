@@ -1,0 +1,69 @@
+2026-10-15 01:00:38,467 INFO [test_01_login.py(test_01_login:23)] - 登录结果None
+2026-10-15 01:06:30,244 INFO [test_01_login.py(test_01_login:23)] - 登录结果Swag Labs
+2026-10-15 01:08:55,673 INFO [test_01_login.py(test_01_login:23)] - 登录结果Swag Labs
+2026-10-15 01:09:24,991 INFO [test_01_login.py(test_01_login:23)] - 登录结果Swag Labs
+2026-10-15 01:09:24,991 ERROR [test_01_login.py(test_01_login:27)] - 断言失败：预期 Swag Labs，实际 Swag Labs
+2026-10-15 14:40:01,231 INFO [test_01_login.py(test_02_login:39)] - 登录结果 Swag Labs
+2026-10-15 14:40:07,587 INFO [test_01_login.py(test_02_login:39)] - 登录结果 Swag Labs
+2026-10-15 14:42:14,269 INFO [test_01_login.py(test_02_login:39)] - 登录结果 Swag Labs
+2026-10-15 14:42:22,398 INFO [test_01_login.py(test_02_login:39)] - 登录结果 Swag Labs
+2026-10-15 14:42:39,067 ERROR [base.py(fd_element:27)] - 元素定位超时，定位信息：('class name', 'app_logo')，错误详情：Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff7505001c5]
+	(No symbol) [0x7ff750417990]
+	(No symbol) [0x7ff75022448d]
+	(No symbol) [0x7ff75027faed]
+	(No symbol) [0x7ff75027fdbc]
+	(No symbol) [0x7ff7502d8937]
+	(No symbol) [0x7ff7502d55a4]
+	(No symbol) [0x7ff750271892]
+	(No symbol) [0x7ff7502726a3]
+	(No symbol) [0x7ff75090ab51]
+	(No symbol) [0x7ff750933aeb]
+	(No symbol) [0x7ff750927fbe]
+	(No symbol) [0x7ff75060260e]
+	(No symbol) [0x7ff750425085]
+	(No symbol) [0x7ff7504203f4]
+	(No symbol) [0x7ff750420584]
+	(No symbol) [0x7ff75040ab1c]
+	(No symbol) [0x7ffa9e1bdda7]
+	(No symbol) [0x7ffa9f0bee4c]
+
+2026-10-15 14:55:52,108 INFO [test_01_login.py(test_03_login_fail_username_error:54)] - 登录结果
+2026-10-15 14:55:52,108 ERROR [test_01_login.py(test_03_login_fail_username_error:58)] - 断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 
+2026-10-15 14:56:07,371 INFO [test_01_login.py(test_04_login_fail_password_error:63)] - 登录结果
+2026-10-15 14:56:07,371 ERROR [test_01_login.py(test_04_login_fail_password_error:67)] - 断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 
+2026-10-15 14:59:33,823 INFO [test_01_login.py(test_01_login:30)] - 登录结果Swag Labs
+2026-10-15 14:59:44,250 INFO [test_01_login.py(test_02_login:43)] - 登录结果 Swag Labs
+2026-10-15 14:59:55,007 INFO [test_01_login.py(test_02_login:43)] - 登录结果 Swag Labs
+2026-10-15 14:59:59,805 INFO [test_01_login.py(test_03_login_fail_username_error:54)] - 登录结果
+2026-10-15 14:59:59,805 ERROR [test_01_login.py(test_03_login_fail_username_error:58)] - 断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 
+2026-10-15 15:00:04,637 INFO [test_01_login.py(test_04_login_fail_password_error:63)] - 登录结果
+2026-10-15 15:00:04,638 ERROR [test_01_login.py(test_04_login_fail_password_error:67)] - 断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 
+2026-10-15 16:02:27,037 ERROR [base.py(fd_element:27)] - 元素定位超时，定位信息：('link text', 'Sauce Labs Backpack')，错误详情：Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff7505001c5]
+	(No symbol) [0x7ff750417990]
+	(No symbol) [0x7ff75022448d]
+	(No symbol) [0x7ff75027faed]
+	(No symbol) [0x7ff75027fdbc]
+	(No symbol) [0x7ff7502d8937]
+	(No symbol) [0x7ff7502d55a4]
+	(No symbol) [0x7ff750271892]
+	(No symbol) [0x7ff7502726a3]
+	(No symbol) [0x7ff75090ab51]
+	(No symbol) [0x7ff750933aeb]
+	(No symbol) [0x7ff750927fbe]
+	(No symbol) [0x7ff75060260e]
+	(No symbol) [0x7ff750425085]
+	(No symbol) [0x7ff7504203f4]
+	(No symbol) [0x7ff750420584]
+	(No symbol) [0x7ff75040ab1c]
+	(No symbol) [0x7ffa9e1bdda7]
+	(No symbol) [0x7ffa9f0bee4c]
+
+2026-10-15 16:07:57,785 INFO [test_02_inventory.py(test_01_check_the_details:19)] - 预期结果Back to products
+2026-10-15 16:08:33,917 INFO [test_02_inventory.py(test_01_check_the_details:17)] - 预期结果Back to products
+2026-10-15 16:08:33,918 ERROR [test_02_inventory.py(test_01_check_the_details:22)] - 断言错误：预期 Back to products 实际 Back to products
