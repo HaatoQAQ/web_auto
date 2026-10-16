@@ -8,6 +8,13 @@ on:
     branches:
       - master
 
+  #  定时触发（UTC 时间，每天 0 点 = 北京早上 8 点）
+  schedule:
+    - cron: "0 0 * * *"
+
+  # 允许在 Actions 页面手动触发
+  workflow_dispatch:
+
 jobs:
   web_test:
     runs-on: windows-latest

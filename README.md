@@ -14,6 +14,9 @@
 - page：页面封装
 - script：测试用例
 
+## 当前 Python 环境里所有已安装的库和版本全部导出
+pip freeze > requirements.txt
+
 ## 运行方式
 pip install -r requirements.txt
 pytest
