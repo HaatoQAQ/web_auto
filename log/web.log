@@ -96,3 +96,4 @@ Symbols not available. Dumping unresolved backtrace:
 2026-10-16 16:25:02,601 INFO [test_03_cart.py(test_02_checkout:11)] - 预期结果Checkout: Your Information
 2026-10-16 16:25:15,958 INFO [test_04_checkout.py(test_02_submit_information:17)] - 预期结果Checkout: Overview
 2026-10-16 16:25:19,813 INFO [test_05_pay.py(test_01_pay:7)] - 预期结果Thank you for your order!
+2026-10-16 16:37:46,148 INFO [test_03_cart.py(test_02_checkout:11)] - 预期结果Checkout: Your Information
