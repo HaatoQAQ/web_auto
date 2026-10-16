@@ -7,7 +7,7 @@ class PagePay(BasePage):
     def __init__(self, driver, timeout=10):
         super().__init__(driver)
         self.pay_btn = (By.CSS_SELECTOR,".btn.btn_action.btn_medium.cart_button")
-        self.assert_pay = (By.XPATH,'//h2[text()="Thank you for your order!"]')
+        self.assert_pay = (By.XPATH,'//h2[@data-test="complete-header"]')
 
     def pay(self):
         self.base_click(self.pay_btn)

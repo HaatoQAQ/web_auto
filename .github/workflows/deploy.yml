@@ -1,5 +1,0 @@
-name: web_auto
-on:
-  push:
-    branches: [master]
-jobs:
