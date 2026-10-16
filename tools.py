@@ -14,14 +14,15 @@ class DriverTools:
     @classmethod
     def get_driver(cls):
         if cls.driver is None:
-            ser = Service(executable_path=DRIVER_PATH)
+            # ser = Service(executable_path=DRIVER_PATH)
             # 启动时禁用密码泄露检测
             options = webdriver.ChromeOptions()
             options.add_experimental_option("prefs", {
                 "profile.password_manager_leak_detection": False
             })
 
-            cls.driver = webdriver.Chrome(service=ser, options=options)
+            # cls.driver = webdriver.Chrome(service=ser, options=options)
+            cls.driver = webdriver.Chrome(options=options)
             # 浏览器最大化
             cls.driver.maximize_window()
             cls.driver.implicitly_wait(10)

@@ -12,7 +12,8 @@ import os
 
 @pytest.fixture()
 def browser():
-    ser = Service(executable_path=DRIVER_PATH)  # Chrome浏览器驱动服务对象
+    # 让 Selenium 自动处理驱动
+    # ser = Service(executable_path=DRIVER_PATH)  # Chrome浏览器驱动服务对象
     # 启动时禁用密码泄露检测
     options = webdriver.ChromeOptions()
 
@@ -29,7 +30,8 @@ def browser():
         "profile.password_manager_leak_detection": False
     })
 
-    driver = webdriver.Chrome(service=ser, options=options)
+    # driver = webdriver.Chrome(service=ser, options=options)
+    driver = webdriver.Chrome(options=options)
     driver.maximize_window()
     driver.implicitly_wait(10)
 
