@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_04_checkout.py:17 预期结果Checkout: Overview
