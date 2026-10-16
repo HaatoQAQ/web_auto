@@ -25,7 +25,7 @@ class BasePage(object):
             # 一般写法，元素需可见
             # element = WebDriverWait(self.driver,self.default_timeout).until(EC.visibility_of_element_located(loc))
             # 推荐用下面的写法，元素不可见时也能定位到
-            element = WebDriverWait(self.driver, self.default_timeout).until(EC.presence_of_element_located(loc))
+            element = WebDriverWait(self.driver, self.default_timeout).until(EC.visibility_of_element_located(loc))
             return element
         except Exception as e:
             log.error(f"元素定位超时，定位信息：{loc}，错误详情：{e}")
