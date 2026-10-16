@@ -2,9 +2,9 @@ import json
 import logging
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from logging import handlers
 from config import (PATH,DRIVER_PATH)
+import os
 
 # 浏览器驱动类
 class DriverTools:
@@ -17,6 +17,16 @@ class DriverTools:
             # ser = Service(executable_path=DRIVER_PATH)
             # 启动时禁用密码泄露检测
             options = webdriver.ChromeOptions()
+
+            # CI 环境用无头模式
+            if os.getenv("CI"):
+                options.add_argument("--headless=new")
+                options.add_argument("--no-sandbox")
+                options.add_argument("--disable-dev-shm-usage")
+                options.add_argument("--window-size=1920,1080")
+            else:
+                options.add_argument("--start-maximized")
+
             options.add_experimental_option("prefs", {
                 "profile.password_manager_leak_detection": False
             })

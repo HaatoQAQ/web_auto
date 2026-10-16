@@ -1,1 +1,0 @@
-[32mINFO    [0m root:test_02_inventory.py:46 预期结果Continue Shopping
