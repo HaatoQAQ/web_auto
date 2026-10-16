@@ -4,6 +4,7 @@ from page.page_login import PageLogin
 from config import (USERNAME,PASSWORD,BASE_URL)
 from script import log
 from tools import DriverTools
+from datetime import datetime
 
 class TestLogin:
 
@@ -50,6 +51,7 @@ class TestLogin:
             assert result == "Epic sadface: Username and password do not match any user in this service"
         except AssertionError:
             log.error(f"断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 {result}")
+            self.page_login.get_shot(datetime.now().strftime("%Y%m%d_%H%M%S") + ".png")
             raise
 
     def test_04_login_fail_password_error(self):
@@ -60,4 +62,5 @@ class TestLogin:
             assert result == "Epic sadface: Username and password do not match any user in this service"
         except AssertionError:
             log.error(f"断言失败：预期 Epic sadface: Username and password do not match any user in this service , 实际 {result}")
+            self.page_login.get_shot(datetime.now().strftime("%Y%m%d_%H%M%S") + ".png")
             raise

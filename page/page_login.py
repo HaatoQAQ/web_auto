@@ -13,7 +13,7 @@ class PageLogin(BasePage):
         self.password = (By.ID, "password")
         self.login_button = (By.ID,"login-button")
         self.success_result = (By.CLASS_NAME, "app_logo")
-        self.fail_result = (By.CLASS_NAME, "error-button")
+        self.fail_result = (By.CSS_SELECTOR, '[data-test="error"]')
 
     def open_url(self,url_path):
         self.driver.get(url_path)
@@ -34,5 +34,6 @@ class PageLogin(BasePage):
 if __name__ == '__main__':
     login = PageLogin(DriverTools.get_driver())
     login.open_url(BASE_URL)
-    login.login("standard_user","secret_sauce")
+    login.login("standard_user","secret_sauc")
+    login.get_fail_result()
     time.sleep(3)
