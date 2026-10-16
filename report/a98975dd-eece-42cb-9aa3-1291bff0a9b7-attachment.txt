@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_05_pay.py:7 预期结果Thank you for your order!

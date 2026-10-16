@@ -97,3 +97,18 @@ Symbols not available. Dumping unresolved backtrace:
 2026-10-16 16:25:15,958 INFO [test_04_checkout.py(test_02_submit_information:17)] - 预期结果Checkout: Overview
 2026-10-16 16:25:19,813 INFO [test_05_pay.py(test_01_pay:7)] - 预期结果Thank you for your order!
 2026-10-16 16:37:46,148 INFO [test_03_cart.py(test_02_checkout:11)] - 预期结果Checkout: Your Information
+2026-10-16 19:07:50,305 INFO [test_01_login.py(test_01_login:25)] - 登录结果Swag Labs
+2026-10-16 19:07:55,802 INFO [test_01_login.py(test_02_login:38)] - 登录结果 Swag Labs
+2026-10-16 19:08:01,217 INFO [test_01_login.py(test_02_login:38)] - 登录结果 Swag Labs
+2026-10-16 19:08:07,436 INFO [test_01_login.py(test_03_login_fail_username_error:49)] - 登录结果Epic sadface: Username and password do not match any user in this service
+2026-10-16 19:08:12,867 INFO [test_01_login.py(test_04_login_fail_password_error:60)] - 登录结果Epic sadface: Username and password do not match any user in this service
+2026-10-16 19:08:18,428 INFO [test_02_inventory.py(test_01_check_the_details:10)] - 预期结果Back to products
+2026-10-16 19:08:21,815 INFO [test_02_inventory.py(test_02_quit_the_details:23)] - 预期结果Products
+2026-10-16 19:08:25,277 INFO [test_02_inventory.py(test_03_add_shopping_cart:33)] - 预期结果Remove
+2026-10-16 19:08:28,645 INFO [test_02_inventory.py(test_04_remove_shopping_cart:40)] - 预期结果Add to cart
+2026-10-16 19:08:32,283 INFO [test_02_inventory.py(test_05_enter_shopping_cart:46)] - 预期结果Continue Shopping
+2026-10-16 19:08:36,112 INFO [test_02_inventory.py(test_06_quit_shopping_cart:53)] - 预期结果Products
+2026-10-16 19:08:39,697 INFO [test_02_inventory.py(test_07_sort_details:59)] - 预期结果Name (Z to A)
+2026-10-16 19:08:46,555 INFO [test_03_cart.py(test_02_checkout:11)] - 预期结果Checkout: Your Information
+2026-10-16 19:09:01,125 INFO [test_04_checkout.py(test_02_submit_information:17)] - 预期结果Checkout: Overview
+2026-10-16 19:09:04,874 INFO [test_05_pay.py(test_01_pay:7)] - 预期结果Thank you for your order!

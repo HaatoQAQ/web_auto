@@ -1,0 +1,1 @@
+{"uuid": "81c9d041-5262-4e3a-b6ad-deb14a60c9c2", "children": ["7f64ca01-275d-43d3-9c67-8397aef78729"], "befores": [{"name": "page_inventory", "status": "passed", "start": 1792148922964, "stop": 1792148922964}], "afters": [{"name": "page_inventory::<lambda>", "start": 1792148923095}], "start": 1792148922964, "stop": 1792148923095}

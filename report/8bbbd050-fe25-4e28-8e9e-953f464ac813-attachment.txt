@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_02_inventory.py:23 预期结果Products
